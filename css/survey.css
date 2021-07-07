@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+body {
+  background-image: url("../images/boy-coding-survey.jpg");
+  background-color: #8383ce;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+  font-size: 110%;
+}
+
+h1 {
+  text-align: center;
+  padding: 25px 25px 0px 25px;
+  font-size: 240%;
+  line-height: 0;
+}
+
+#description {
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+form {
+  height: 100;
+  width: 40%;
+  opacity: 0.94;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  background: #202931;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin: 30px 45px;
+  line-height: 1;
+}
+
+label[for=name], label[for=email], label[for=number] {
+  font-size: 105%;
+}
+
+input[type=text], input[type=number], input[type=email], select {
+  width: 100%;
+  padding: 12px;
+  display: block;
+  margin-top: 5px;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.clue {
+  font-size: 80%;
+  opacity: 0.7;
+}
+
+.form-group p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 110%;
+}
+
+.radio label, .checkbox label  {
+  display: block;
+  margin: 10px 0px;;
+}
+
+textarea {
+  width: 100%;
+  height: 130px;
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  display: block;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #27b45d;
+}
