@@ -92,3 +92,42 @@ button {
   border-radius: 4px;
   background: #27b45d;
 }
+
+/*Desktop View*/
+@media (min-width: 1200px) {
+  form {
+    width: 60%;
+  }
+}
+
+/*Small Laptop View*/
+@media (min-width: 992px max-width: 1199px) {
+  form {
+    width: 60%;
+  }
+}
+
+/*Tablet View*/
+@media (min-width: 768px max-width: 991px) {
+  form {
+    width: 65%;
+  }
+}
+
+/*Mobile View*/
+@media (max-width: 767px) {
+  
+  form {
+    width: 65%;
+  }
+}
+
+/*Small Mobile View*/
+@media (max-width: 450px) {
+  body {
+    height: 100vh;
+  }
+  form {
+    width: 65%;
+  }
+}
